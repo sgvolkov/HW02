@@ -29,10 +29,77 @@
 # Write your functions below:
 # Body
 
+#1
+
+>>> def do_twice(f):
+...     f()
+...     f()
+... 
+>>> def print_spam():
+...     print 'spam'
+... 
+>>> do_twice(print_spam)
+spam
+spam
+>>> 
+
+#2
+>>> def hello(x):
+...     print x
+... 
+>>> def do_twice(f, b):
+...     f(b)
+...     f(b)
+... 
+>>> do_twice(hello, 'world')
+world
+world
+>>> 
 
 
+#3
 
+>>> def print_twice(spam):
+...     print spam
+...     print spam
+... 
+>>> print_twice('spam')
+spam
+spam
+>>> 
 
+#4
+
+>>> def print_twice(spam):
+...     print spam
+...     print spam
+... 
+>>> def do_twice(f, b):
+...     f(b)
+...     f(b)
+... 
+>>> do_twice(print_twice, 'hello')
+hello
+hello
+hello
+hello
+>>> 
+
+#5
+
+>>> def fun(x):
+...     print x
+... 
+>>> def do_four(f, b):
+...     f(b)
+...     f(b)
+... 
+>>> do_four(print_twice, 'hi')
+hi
+hi
+hi
+hi
+>>>
 
 
 # Write your functions above:

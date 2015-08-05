@@ -40,7 +40,7 @@
 def main():
     """Call your functions within this function.
     When complete have one function call in this function:
-    do_four([function object], [some_value])
+    do_four(print_twice, [some_value])
     """
     print("Hello World!")
     

@@ -36,6 +36,77 @@
 # Body
 
 
+#1
+
+>>> horizontal = (('+' + (((' ')+('-'))*4)+' ')*2) + '+'
+>>> vertical = ('|' + ((' ')*9)) + ('|' + ((' ')*9)) + '|'
+>>> def box():
+...     print horizontal
+...     print vertical
+...     print vertical
+...     print vertical
+...     print vertical
+...     print horizontal
+...     print vertical
+...     print vertical
+...     print vertical
+...     print vertical
+...     print horizontal
+... 
+>>> box()
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+>>> 
+
+#2
+
+>>> horizontal = (('+' + (((' ')+('-'))*4)+' ')* 3) + '+'
+>>> vertical = ('|' + ((' ')*9)) + ('|' + ((' ')*9)) + ('|' + ((' ')*9)) + '|'
+>>> def new_box():
+...     print horizontal
+...     print vertical
+...     print vertical
+...     print vertical
+...     print vertical
+...     print horizontal
+...     print vertical
+...     print vertical
+...     print vertical
+...     print vertical
+...     print horizontal
+...     print vertical
+...     print vertical
+...     print vertical
+...     print vertical
+...     print horizontal
+... 
+>>> new_box()
++ - - - - + - - - - + - - - - +
+|         |         |         |
+|         |         |         |
+|         |         |         |
+|         |         |         |
++ - - - - + - - - - + - - - - +
+|         |         |         |
+|         |         |         |
+|         |         |         |
+|         |         |         |
++ - - - - + - - - - + - - - - +
+|         |         |         |
+|         |         |         |
+|         |         |         |
+|         |         |         |
++ - - - - + - - - - + - - - - +
+>>> 
 
 
 

@@ -23,12 +23,50 @@
 # Write your functions below:
 # Body
 
+#1
+
+>>> a = 3
+>>> b = 4
+>>> c = 5
+>>> def is_triangle(a, b, c):
+...     if a + b < c:
+...             print 'No'
+...     elif a + c < b:
+...             print 'No'
+...     elif b + c < a:
+...             print 'No'
+...     else:
+...             print 'Yes'
+... 
+>>> is_triangle(a, b, c)
+Yes
+>>> 
 
 
+#2
 
-
-
-
+>>> a = int(raw_input('what is the length of a?\n'))
+what is the length of a?
+3
+>>> b = int(raw_input('what is the length of b?\n'))
+what is the length of b?
+4
+>>> c = int(raw_input('what is the length of c?\n'))
+what is the length of c?
+5
+>>> def check_is_triangle(a, b, c):
+...     if a + b < c:
+...             print 'No'
+...     elif a + c < b:
+...             print 'No'
+...     elif b + c < a:
+...             print 'No'
+...     else:
+...             print 'Yes'
+... 
+>>> check_is_triangle(a, b, c)
+Yes
+>>> 
 
 
 # Write your functions above:

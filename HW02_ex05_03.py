@@ -21,12 +21,46 @@
 # Write your functions below:
 # Body
 
+#1
 
+>>> a = 3
+>>> b = 4
+>>> c = 5
+>>> n = 6
+>>> 
+>>> def check_fermat(a, b, c, n):
+...     if a**n + b**n == c:
+...             print "Holy smokes, Fermat was wrong!"
+...     else:
+...             print "No, that doesn't work"
+... 
+>>> check_fermat(a, b, c, n)
+No, that doesn't work
+>>> 
 
+#2
 
-
-
-
+>>> a = int(raw_input('what value to use for a?\n'))
+what value to use for a?
+6
+>>> b = int(raw_input('what value to use for b?\n'))
+what value to use for b?
+4
+>>> c = int(raw_input('what value to use for c?\n'))
+what value to use for c?
+3
+>>> n = int(raw_input('what value to use for n?\n'))
+what value to use for n?
+5
+>>> def check_fermat_ints(a, b, c, n):
+...     if a**n + b**n == c**n:
+...             print 'Holy smokes, Fermat was wrong!'
+...     else:
+...             print "No, that doesn't work."
+... 
+>>> check_fermat_ints(a, b, c, n)
+No, that doesn't work.
+>>> 
 
 
 # Write your functions above:

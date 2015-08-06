@@ -9,10 +9,20 @@
 # Body
 
 
-
-
-
-
+>>> def name():
+...     print 'Sasha'
+... 
+>>> def do_n(s, n):
+...     if n <= 0:
+...             return
+...     s()
+...     do_n(s, n-1)
+>>> do_n(name, 4)
+Sasha
+Sasha
+Sasha
+Sasha
+>>> 
 
 
 
